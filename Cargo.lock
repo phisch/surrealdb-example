@@ -436,14 +436,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "db"
-version = "0.1.0"
-dependencies = [
- "surrealdb",
- "tokio",
-]
-
-[[package]]
 name = "digest"
 version = "0.10.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1846,6 +1838,14 @@ checksum = "0e0f2a75e22417f587cf23a5efa9f680f4002b8655b8481a01ee5e787f15d82b"
 dependencies = [
  "quote",
  "syn 1.0.109",
+]
+
+[[package]]
+name = "surrealdb-example"
+version = "0.1.0"
+dependencies = [
+ "surrealdb",
+ "tokio",
 ]
 
 [[package]]
